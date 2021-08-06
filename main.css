@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+body{
+
+    background-image: url(img/Fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    background-attachment: fixed;  
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+.calculadora {
+
+    display: flex;
+    background-color: #F4F4F4;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 240px;
+    height: 390px;
+    border-radius: 27px;
+   
+    
+}
+
+.painel-numbers {
+
+    display: flex;
+    align-items: flex-start;
+    width: 230px;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    margin-right: 5px;
+    
+}    
+
+.borda {
+    
+    margin: 5px;
+    width: 37px;
+    height: 38px;
+    background: #E5E5E5;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.ponto {
+
+    margin: 5px;
+    margin-right: 60px;
+    width: 37px;
+    height: 38px;
+    background: #E5E5E5;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.simbolos {
+    
+        margin: 5px;
+        width: 37px;
+        height: 38px;
+        background: #E5E5E5;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 30px;
+
+}
+
+
+.resultado {
+
+    font-size: 65px;
+    margin-right: 14px;
+    margin-top: 10px;
+    height: 65px;
+    flex-direction: column;
+
+}
+
+.backspace {
+
+    margin-right: 22px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
